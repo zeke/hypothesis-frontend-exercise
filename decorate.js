@@ -23,10 +23,3 @@ module.exports = function(_) {
   deriveDomain(_)
   truncateTitle(_)
 }
-
-// Other possible helpers:
-//
-// - linkify URLs in `text`
-// - convert `text` newlines to breaks
-// - pretty-print dates
-// - relative dates: https://github.com/npm/newww/blob/master/assets/scripts/date-formatting.js
