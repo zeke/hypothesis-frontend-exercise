@@ -1,0 +1,61 @@
+{{#each annotations}}
+  <li class="paper thread" id="annotation">
+    <!-- Annotation -->
+    <article class="annotation thread-message">
+      <header class="annotation-header">
+        <span>
+          <a class="annotation-user" target="_blank" href="https://hypothes.is/u/{{user}}">{{userHandle}}</a>
+          <span class="annotation-citation">
+            on “<a href="{{document.link.1.href}}" target="_blank">{{document.titleTruncated}}</a>”
+            <span class="annotation-citation-domain">({{document.domain}})</span>
+          </span>
+        </span>
+
+        <a class="annotation-timestamp small pull-right" target="_blank"
+           title="Tuesday, June 16 2015 8:17 PM"
+           href="https://hypothes.is/a/{{id}}">18 hours ago</a>
+      </header>
+
+      <!-- Excerpts -->
+      <section class="annotation-section">
+        <blockquote class="annotation-quote">
+          Usually it’s not simply because the ideas are bad (although some certainly are),
+        </blockquote>
+      </section>
+      <!-- / Excerpts -->
+
+      <!-- Body -->
+      <section name="text" class="annotation-body">
+        <div class="styled-text">
+          {{text}}
+        </div>
+      </section>
+      <!-- / Body -->
+
+      <!-- Tags -->
+      <div class="annotation-section tags tags-read-only">
+        <ul class="tag-list">
+          {{#each tags}}
+            <li class="tag-item">
+              <a href="/stream?q=tag:'{{this}}'" target="_blank">{{this}}</a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+      <!-- / Tags -->
+
+      <footer class="annotation-footer">
+        <div class="annotation-actions">
+          <button class="small btn-clean"><i class="h-icon-reply btn-icon"></i> Reply</button>
+        </div>
+        <div class="annotation-actions">
+          <button class="small btn-clean"><i class="h-icon-share btn-icon"></i> Share</button>
+        </div>
+        <div class="">
+          {{html_url}}
+        </div>
+      </footer>
+    </article>
+    <!-- / Annotation -->
+  </li>
+{{/each}}

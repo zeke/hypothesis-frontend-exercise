@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hypothesis</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- Toolbar -->
+    <div class="topbar">
+      <div class="inner">
+        <div class="pull-right user-picker">
+          <span role="button" class="provider-toggle">
+            jane.doe<span class="provider">/hypothes.is</span>
+          </span>
+        </div>
+
+        <!-- Searchbar -->
+        <div class="simple-search">
+          <form class="simple-search-form simple-search-inactive" action="/search">
+            <input class="simple-search-input" type="text" name="q" placeholder="Search…">
+            <span class="simple-search-icon">
+              <i class="h-icon-search"></i>
+            </span>
+          </form>
+        </div>
+        <!-- / Searchbar -->
+      </div>
+    </div>
+    <!-- / Toolbar -->
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <main class="content">
+
+        <!-- Thread view -->
+        <ul class="stream-list">
+          <li class="paper thread">
+            <!-- Annotation -->
+            <article class="annotation thread-message">
+              <header class="annotation-header">
+                <span>
+                  <a class="annotation-user" target="_blank" href="https://hypothes.is/u/acct:jane.doe@hypothes.is">jane.doe</a>
+                  <span class="annotation-citation">
+                    on “<a href="http://www.nytimes.com/2013/10/13/magazine/all-is-fair-in-love-and-twitter.html?pagewanted=all&amp;_r=0" target="_blank">All Is Fair in Love and Twitte…</a>”
+                    <span class="annotation-citation-domain">(www.nytimes.com)</span>
+                  </span>
+                </span>
+
+                <a class="annotation-timestamp small pull-right" target="_blank"
+                   title="Tuesday, June 16 2015 8:17 PM"
+                   href="https://hypothes.is/a/AHrdvA_NTfqm6WjiMnm3ab">18 hours ago</a>
+              </header>
+
+              <!-- Excerpts -->
+              <section class="annotation-section">
+                <blockquote class="annotation-quote">
+                  Usually it’s not simply because the ideas are bad (although some certainly are),
+                </blockquote>
+              </section>
+              <!-- / Excerpts -->
+
+              <!-- Body -->
+              <section name="text" class="annotation-body">
+                <div class="styled-text">
+                  <p>Like this one:</p>
+                  <p><a target="_blank" href="https://www.youtube.com/watch?v=wyrFWbGiGOc">https://www.youtube.com/watch?v=wyrFWbGiGOc</a></p>
+                </div>
+              </section>
+              <!-- / Body -->
+
+              <!-- Tags -->
+              <div class="annotation-section tags tags-read-only">
+                <ul class="tag-list">
+                  <li class="tag-item">
+                    <a href="/stream?q=tag:'bad%20pitch'" target="_blank">bad pitch</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="/stream?q=tag:'Silicon%20Valley'" target="_blank">Silicon Valley</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- / Tags -->
+
+              <footer class="annotation-footer">
+                <div class="annotation-actions">
+                  <button class="small btn-clean"><i class="h-icon-reply btn-icon"></i> Reply</button>
+                </div>
+                <!--div class="annotation-actions">
+                  <button class="small btn-clean"><i class="h-icon-share btn-icon"></i> Share</button>
+                </div-->
+              </footer>
+            </article>
+            <!-- / Annotation -->
+          </li>
+        </ul>
+        <!-- / Thread view -->
+
+      </main>
+    </div>
+    <!-- / Wrapper -->
+  </body>
+</html>
