@@ -30,3 +30,53 @@ I have lots of thoughts and ideas about all of this stuff, and look forward to d
 
 Thanks,
 Zeke
+
+## Demo
+
+- https://hypothesis-frontend-exercise.herokuapp.com/
+- https://hypothesis-frontend-exercise.herokuapp.com/markup.html
+
+## Munging data
+
+- linkifying URLs in text
+- converting text newlines to breaks
+- pretty-printing dates
+- relative date strings
+- techniques: handlebars helpers vs CSS vs js decorators vs adapting the webservice API
+
+# UX
+
+- designing the sharing UI
+  - autofocusing text input for easy copying
+  - OS clipboard access with with npm.im/zeroclipboard
+  - user-configurable social features. OAuth?
+
+- bookmarklet UX is cumbersome
+- contrast is low
+- fonts are small
+- lots of unused whitespace
+- hypothes.is/stream  
+
+## Related Products
+
+- readability.com
+- instapaper.com
+- getpocket.com
+- evernote.com
+- delicious.com
+- pinboard.in
+- pinterest.com
+- https://web.archive.org/web/20070324061033/http://hoodwinkd.hobix.com/ (defunct)
+- github.com/sniphr (defunct)
+- clipboard.com (defunct)
+
+## Technical
+
+- Firefox extension?
+- https://cloudup.com/c3TdHLLi6F6 Show me the React
+- http://crossrider.com/developers
+- Extension: tiny wrapper around regularly updated remote script
+- tiny modules vs kitchen sink
+- Browser compatibility?
+- Public API
+- Mobile Apps
